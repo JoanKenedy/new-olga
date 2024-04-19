@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: start;
   transition: all 0.7s;
+  z-index: 10;
 }
 .navbar.open_menu {
   height: 100vh;

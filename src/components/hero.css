@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+.slider-img {
+  max-width: 100%;
+  height: auto;
+}
+.slider {
+  position: relative;
+}
+.text-slider {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  z-index: 5;
+  opacity: 1;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: 1s all ease-in;
+}
