@@ -1,0 +1,20 @@
+.agenda {
+  width: 100%;
+  margin: auto;
+}
+.container-agenda {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.item-agenda:nth-child(1) h2 {
+  text-align: left;
+  font-size: 30px;
+}
+.list-agenda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
