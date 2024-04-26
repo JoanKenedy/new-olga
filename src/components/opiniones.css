@@ -1,0 +1,155 @@
+.opiniones {
+  width: 100%;
+  margin: 0px auto;
+  padding: 10px 20px;
+  background-color: #ff117f !important;
+}
+.opiniones h2 {
+  text-align: center !important;
+  color: white;
+  font-size: 27px;
+}
+
+.slider-opiniones {
+  width: 100% !important;
+  margin: auto !important;
+}
+.card-opinion {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  flex-direction: column;
+  height: 270px;
+  background-color: aliceblue;
+  gap: 12px;
+  padding: 10px;
+}
+.card-opinion h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.author {
+  color: #ba19a1;
+  font-weight: 700;
+}
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  left: -15px;
+  z-index: 10;
+}
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  right: -15px;
+  z-index: 10;
+}
+
+.slick-next::before {
+  content: "<i class=" fa-solid fa-arrow-right "></i>";
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: black;
+  border: none;
+  outline: none;
+
+  max-width: 100%;
+}
+.slick-prev::before {
+  content: "<i class=" fa-solid fa-arrow-left "></i>";
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: black;
+  border: none;
+  outline: none;
+
+  max-width: 100%;
+}
+@media (min-width: 767px) {
+  .opiniones {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 100px;
+    background-color: #ff117f !important;
+  }
+  .opiniones h2 {
+    text-align: center !important;
+    color: white;
+    font-size: 27px;
+  }
+
+  .slider-opiniones {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+@media (min-width: 1200px) {
+  .opiniones {
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 200px;
+    background-color: #ff117f !important;
+  }
+  .opiniones h2 {
+    text-align: center !important;
+    color: white;
+    font-size: 40px;
+  }
+
+  .slider-opiniones {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .card-opinion h4 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .author {
+    color: #ba19a1;
+    font-weight: 700;
+    font-size: 19px;
+  }
+}

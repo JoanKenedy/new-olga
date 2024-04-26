@@ -3,7 +3,7 @@
   margin: auto;
 }
 .container-agenda {
-  width: 95%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -11,10 +11,113 @@
 }
 .item-agenda:nth-child(1) h2 {
   text-align: left;
-  font-size: 30px;
+  font-size: 27px;
+  margin-left: 15px;
+}
+.container-list-agenda {
+  padding: 5px;
 }
 .list-agenda {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+}
+.body-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #ff117f;
+}
+.body-img img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  padding: 15px;
+}
+.body-list h2 {
+  font-size: 18px !important;
+}
+.body-list p {
+  font-size: 14px;
+  text-align: left;
+}
+.item-agenda:nth-child(2) {
+  width: 100%;
+  background-image: url(../assets/blur-hospital.png);
+  background-position: center center;
+  background-size: cover;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-agenda:nth-child(2) h2 {
+  color: #fff;
+  font-size: 25px;
+}
+.item-agenda:nth-child(2) p {
+  color: #fff;
+  text-align: center;
+}
+.item-agenda:nth-child(2) h3 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-agenda:nth-child(2) a {
+  background-color: #ff117f;
+  display: block;
+  width: 170px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  margin: 7px auto;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.item-agenda:nth-child(2) a i {
+  margin-right: 5px;
+}
+
+@media (min-width: 767px) {
+  .container-agenda {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container-list-agenda {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .item-agenda:nth-child(2) {
+    gap: 18px;
+    height: auto;
+  }
+  .item-agenda:nth-child(1) h2 {
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .body-list h2 {
+    font-size: 20px !important;
+  }
+  .body-list p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .item-agenda:nth-child(2) a {
+    width: 220px;
+    padding: 10px 12px;
+  }
 }
