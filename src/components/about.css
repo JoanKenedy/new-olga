@@ -69,7 +69,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+  }
+  .mtop {
+    margin-top: 170px !important;
   }
   .container-about {
     width: 80%;

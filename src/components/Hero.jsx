@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,14 +12,15 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
+    arrows: false,
   };
   return (
     <>
-      <div className="hero">
-        <Slider {...settings} className="slider-mobil">
+      <div className="slider-mobil">
+        <Slider {...settings}>
           <div className="slider ">
             <img
-              src="./src/assets/swiper-1.jpg"
+              src="./src/assets/swiper-1.webp"
               alt=""
               className="slider-img "
             />
@@ -29,7 +30,7 @@ const Hero = () => {
           </div>
           <div className="slider">
             <img
-              src="./src/assets/swiper-2.jpg"
+              src="./src/assets/swiper-2.webp"
               alt=""
               className="slider-img "
             />
@@ -39,7 +40,7 @@ const Hero = () => {
           </div>
           <div className="slider">
             <img
-              src="./src/assets/swiper-3.jpg"
+              src="./src/assets/swiper-3.webp"
               alt=""
               className="slider-img "
             />
@@ -52,10 +53,12 @@ const Hero = () => {
             </div>
           </div>
         </Slider>
-        <Slider {...settings} className="slider-compu">
+      </div>
+      <div className=" slider-compu">
+        <Slider {...settings}>
           <div className="slider">
             <img
-              src="./src/assets/slider-pc-1.jpg"
+              src="./src/assets/slider-pc-1.webp"
               alt=""
               className="slider-img "
             />
@@ -65,7 +68,7 @@ const Hero = () => {
           </div>
           <div className="slider">
             <img
-              src="./src/assets/slider-pc-2.jpg"
+              src="./src/assets/slider-pc-2.webp"
               alt=""
               className="slider-img "
             />
@@ -75,7 +78,7 @@ const Hero = () => {
           </div>
           <div className="slider">
             <img
-              src="./src/assets/slider-pc-3.jpg"
+              src="./src/assets/slider-pc-3.webp"
               alt=""
               className="slider-img "
             />
@@ -90,7 +93,7 @@ const Hero = () => {
       </div>
       <div className="box-horarios">
         <div className="item-box-horarios">
-          <div className="text-title">
+          <div className="text-titles">
             <i class="fa-solid fa-heart-pulse"></i>
             <h2>Alta Especialidad en la Mujer</h2>
           </div>
@@ -103,18 +106,18 @@ const Hero = () => {
           </p>
         </div>
         <div className="item-box-horarios">
-          <div className="text-title">
+          <div className="text-titles">
             <i class="fa-regular fa-clock"></i> <h2>Nuestros Horarios</h2>
           </div>
 
           <div className="text-horario">
-            <p>Lunes a Viernes</p> <p>10:00am a 19:00pm</p>
+            <p>Lunes a Viernes</p> <p>9:00am a 20:00pm</p>
           </div>
           <div className="text-horario">
-            <p>Sábado</p> <p>10:00am a 15:00pm</p>
+            <p>Sábado</p> <p>9:00am a 20:00pm</p>
           </div>
           <div className="text-horario">
-            <p>Teléfono</p> <p>5593689180</p>
+            <p>Teléfono</p> <p>5564529359</p>
           </div>
         </div>
       </div>

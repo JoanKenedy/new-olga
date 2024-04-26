@@ -56,7 +56,10 @@ const Agenda = () => {
           </p>
           <h3>Prioriza tu salud ¡No esperes más!</h3>
 
-          <a href="">
+          <a
+            href="https://api.whatsapp.com/send/?phone=525564529359"
+            target="_blank"
+          >
             <i class="fa-solid fa-calendar-days"></i> Agendar cita
           </a>
         </div>

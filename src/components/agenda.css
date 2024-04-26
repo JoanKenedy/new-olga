@@ -45,7 +45,7 @@
 }
 .item-agenda:nth-child(2) {
   width: 100%;
-  background-image: url(../assets/blur-hospital.png);
+  background-image: url(../assets/blur-hospital.webp);
   background-position: center center;
   background-size: cover;
   height: 370px;

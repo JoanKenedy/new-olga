@@ -3,10 +3,10 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about mtop">
       <div className="container-about">
         <div className="item-about">
-          <img src="./src/assets/olga.jpg" alt="" />
+          <img src="./src/assets/olga.webp" alt="" />
           <h1>Dra. Olga Castillo</h1>
           <span>Especializada en Ginecología y Obstetricia.</span>
         </div>
@@ -46,7 +46,11 @@ const About = () => {
               <p>Atención personalizada e integral</p>
             </li>
           </ul>
-          <a href="" className="btn-cita">
+          <a
+            href="https://api.whatsapp.com/send/?phone=525564529359"
+            target="_blank"
+            className="btn-cita"
+          >
             Agendar cita
           </a>
         </div>

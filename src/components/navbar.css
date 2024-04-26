@@ -177,6 +177,12 @@
     padding: 9px 14px;
     color: white !important;
     font-size: 15px !important;
+    transition: all 0.7s;
+  }
+  .btn-contacto:hover {
+    transform: scale(0.9);
+    font: 14px;
+    transition: all 0.7s;
   }
   .menu-arriba .item-menu p {
     font-size: 16px;

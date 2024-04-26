@@ -7,17 +7,14 @@ const Footer = () => {
           <div className="container-mapa">
             <div className="item-mapa">
               <h2>Horarios</h2>
-              <h3>
-                Lunes y Viernes: 9:00am - 9:00pm Sábado: 6:00pm - 10:00pm
-                Domingo: Cerrado Todo con previa cita
-              </h3>
+              <h3>Lunes y Sábado: 9:00am - 20:00pm Domingo: Cerrado</h3>
               <h2>Ubicación</h2>
               <h3>
                 Calz Acoxpa 430, Coapa, Ex-Hacienda Coapa, Tlalpan, 14308 Ciudad
                 de México, CDMX
               </h3>
               <a
-                href="https://api.whatsapp.com/send?phone=525529484701"
+                href="https://api.whatsapp.com/send/?phone=525564529359"
                 target="_blank"
                 className="btn-rosa"
                 rel="noopener noreferrer"

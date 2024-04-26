@@ -1,0 +1,140 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-about {
+  width: 95%;
+  margin: 20px auto 0px auto;
+}
+
+.item-about img {
+  max-width: 100%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+.item-about h1 {
+  color: #6a5d62;
+}
+.item-about:nth-child(1) span {
+  color: #ff117f;
+  font-weight: 600;
+  font-size: 16px;
+}
+.texto-esp {
+  color: #ff117f;
+  font-size: 16px;
+}
+.item-about:nth-child(2) p {
+  font-size: 15px;
+}
+.item-about:nth-child(2) ul {
+  margin-top: 12px;
+}
+.item-about:nth-child(2) ul li i {
+  color: #ff117f;
+}
+.btn-cita {
+  display: block;
+  background-color: #ff117f;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 170px;
+  text-decoration: none;
+  margin: 10px 0px;
+  border-radius: 7px;
+}
+.item-about:nth-child(2) ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 17px;
+  margin: 7px auto;
+}
+.item-about:nth-child(2) ul li p {
+  color: #5a5a5a;
+  font-weight: 500;
+}
+@media (min-width: 767px) {
+  .about {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .container-about {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .item-about img {
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .item-about h1 {
+    color: #6a5d62;
+    text-align: center;
+  }
+  .item-about:nth-child(1) span {
+    color: #ff117f;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+  }
+  .texto-esp {
+    color: #ff117f;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .item-about:nth-child(2) p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .item-about:nth-child(2) ul {
+    margin-top: 12px;
+  }
+  .item-about:nth-child(2) ul li i {
+    color: #ff117f;
+  }
+  .item-about:nth-child(2) ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+    margin: 7px auto;
+  }
+  .item-about:nth-child(2) ul li p {
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .btn-cita {
+    display: block;
+    background-color: #ff117f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 170px;
+    text-decoration: none;
+    margin: 20px 0px 0px 0px;
+    border-radius: 7px;
+  }
+}

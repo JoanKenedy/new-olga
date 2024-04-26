@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="item-menu">
               <p>
                 <img src="./src/assets/phone.png" alt="" />
-                5583336612
+                5564529359
               </p>
             </div>
           </div>
@@ -42,29 +42,13 @@ const Navbar = () => {
 
             <ul>
               <li>
-                <a href="#">Inicio</a>
+                <a href="/">Inicio</a>
               </li>
               <li>
-                <a href="#">Nosotros</a>
+                <a href="nosotros">Nosotros</a>
               </li>
               <li>
-                <a href="#">Servicios</a>
-                <div className="submenu-hidden">
-                  <ul className="submenu">
-                    <li>
-                      <a href="">Servicio 1</a>
-                    </li>
-                    <li>
-                      <a href="">Servicio 2</a>
-                    </li>
-                    <li>
-                      <a href="">Servicio 3</a>
-                    </li>
-                    <li>
-                      <a href="">Servicio 4</a>
-                    </li>
-                  </ul>
-                </div>
+                <a href="services">Servicios</a>
               </li>
               <li>
                 <a href="#">Ubicación</a>
@@ -73,8 +57,12 @@ const Navbar = () => {
                 <a href="#">Contacto</a>
               </li>
               <li>
-                <a href="#" className="btn-contacto">
-                  ¡AGENTA TU CITA!
+                <a
+                  href="https://api.whatsapp.com/send/?phone=525564529359"
+                  target="_blank"
+                  className="btn-contacto"
+                >
+                  ¡AGENDA TU CITA!
                 </a>
               </li>
             </ul>
