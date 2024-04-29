@@ -1,5 +1,6 @@
 import React from "react";
 import "./servicios.css";
+import LazyLoad from "react-lazyload";
 
 const Servicios = () => {
   return (
@@ -8,7 +9,9 @@ const Servicios = () => {
       <div className="container-servicios">
         <div className="item-servicios">
           <div className="card-img">
-            <img src="./src/assets/ginecologia.webp" alt="" />
+            <LazyLoad>
+              <img src="./src/assets/ginecologia.webp" alt="" />
+            </LazyLoad>
           </div>
           <div className="card-body">
             <h2 className="subtitle">Ginecología</h2>
@@ -19,7 +22,9 @@ const Servicios = () => {
         </div>
         <div className="item-servicios">
           <div className="card-img">
-            <img src="./src/assets/obstetricia.webp" alt="" />
+            <LazyLoad>
+              <img src="./src/assets/obstetricia.webp" alt="" />
+            </LazyLoad>
           </div>
           <div className="card-body">
             <h2 className="subtitle">Obstetricia</h2>
@@ -30,7 +35,9 @@ const Servicios = () => {
         </div>
         <div className="item-servicios">
           <div className="card-img">
-            <img src="./src/assets/materno.webp" alt="" />
+            <LazyLoad>
+              <img src="./src/assets/materno.webp" alt="" />
+            </LazyLoad>
           </div>
           <div className="card-body">
             <h2 className="subtitle">Materno Fetal</h2>

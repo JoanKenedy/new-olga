@@ -51,10 +51,10 @@ const Navbar = () => {
                 <a href="services">Servicios</a>
               </li>
               <li>
-                <a href="#">Ubicación</a>
+                <a href="#">Promociones</a>
               </li>
               <li>
-                <a href="#">Contacto</a>
+                <a href="#ubicacion">Ubicación</a>
               </li>
               <li>
                 <a

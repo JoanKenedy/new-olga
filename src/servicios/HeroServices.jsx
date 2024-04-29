@@ -1,11 +1,10 @@
 import React from "react";
-import "./hero-nosotros.css";
 
-const HeroNosotros = () => {
+const HeroServices = () => {
   return (
     <div className="heroNosotros">
-      <img src="./src/assets/nosotros-mobil.png" alt="" className="mobil" />
-      <img src="./src/assets/nosotros.webp" alt="" className="pc-img" />
+      <img src="./src/assets/servicio-mobil.webp" alt="" className="mobil" />
+      <img src="./src/assets/servicios.webp" alt="" className="pc-img" />
       <div className="text-title">
         <h2>Conócenos</h2>
         <p>
@@ -17,4 +16,4 @@ const HeroNosotros = () => {
   );
 };
 
-export default HeroNosotros;
+export default HeroServices;

@@ -2,9 +2,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <footer id="ubicacion">
+      <footer>
         <div className="mapa">
-          <div className="container-mapa">
+          <div className="container-mapa" id="ubicacion">
             <div className="item-mapa">
               <h2>Horarios</h2>
               <h3>Lunes y Sábado: 9:00am - 20:00pm Domingo: Cerrado</h3>

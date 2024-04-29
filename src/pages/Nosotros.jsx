@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import HeroNosotros from "../nosotros/HeroNosotros";
 import About from "../nosotros/About";
 import Mision from "../nosotros/Mision";
+import Galery from "../nosotros/Galery";
+import Flotantes from "../components/Flotantes";
 
 const Nosotros = () => {
   return (
@@ -12,6 +14,8 @@ const Nosotros = () => {
       <HeroNosotros />
       <About />
       <Mision />
+      <Galery />
+      <Flotantes />
       <Footer />
     </div>
   );

@@ -23,7 +23,9 @@ const Mision = () => {
             <h3>Visión</h3>
             <p>
               Establecer áreas de excelencia en la especialidad de medicina
-              materno fetal, teniendo a nuestras pacientes como prioridad.
+              materno fetal, teniendo a nuestras pacientes como prioridad. Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+              laudantium omnis, necessitatibus error cumque impedit.
             </p>
           </div>
         </div>

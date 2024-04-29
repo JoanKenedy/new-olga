@@ -39,6 +39,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  margin: auto;
 }
 .card-valores {
   display: flex;
@@ -53,6 +54,7 @@
   object-fit: cover;
   border-radius: 50%;
   background-color: #ff117f;
+  box-shadow: 7px 7px 7px #ba19a1;
 }
 .card-valores img {
   width: 80px;
@@ -84,9 +86,21 @@
   }
   .item-mision:nth-child(1) .card-mision {
     background-color: #ff117f;
+    transition: all 0.7s;
+    padding: 30px;
   }
   .item-mision:nth-child(1) .card-mision:nth-child(2) {
     background-color: #ba19a1;
+    transition: all 0.7s;
+    padding: 30px;
+  }
+  .item-mision:nth-child(1) .card-mision:hover {
+    background-color: #0b2458;
+    transition: all 0.7s;
+  }
+  .item-mision:nth-child(1) .card-mision:nth-child(2):hover {
+    background-color: #0b2458;
+    transition: all 0.7s;
   }
   .card-mision {
     color: white;
@@ -124,12 +138,18 @@
     flex-direction: column;
     gap: 10px;
   }
+  .card-img-valores:hover {
+    transition: 0.7s;
+    border-radius: 100%;
+    box-shadow: 7px 7px 7px #0b2458;
+  }
   .card-img-valores {
+    transition: 0.7s;
     width: 140px;
     height: 140px;
     object-fit: cover;
+    box-shadow: 7px 7px 7px #ba19a1;
     border-radius: 50%;
-    background-color: #ff117f;
   }
   .card-valores img {
     width: 140px;
