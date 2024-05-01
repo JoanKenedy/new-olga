@@ -1,0 +1,13 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+.slider-promo {
+  width: 100%;
+}
+.container-promos {
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .slider-promo {
+    display: none;
+  }
+}

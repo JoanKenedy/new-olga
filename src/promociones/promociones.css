@@ -1,0 +1,18 @@
+.promos {
+  display: none;
+}
+@media (min-width: 767px) {
+  .promos {
+    display: block;
+  }
+  .todo-promos {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .item-todo-promo img {
+    max-width: 100%;
+  }
+}

@@ -5,6 +5,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import Services from "./pages/Services";
+import Promociones from "./pages/Promociones";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/services",
     element: <Services />,
+  },
+  {
+    path: "/promociones",
+    element: <Promociones />,
   },
 ]);
 
