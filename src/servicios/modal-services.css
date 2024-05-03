@@ -20,7 +20,7 @@
 .item-galery button {
   display: block;
   width: 170px;
-  background-color: #2e2e2e;
+  background-color: #ff117f;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -29,6 +29,7 @@
   padding: 12px;
   font-size: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
 }
 .item-galery img {
   max-width: 100%;
@@ -94,28 +95,29 @@
 .container-atractions a {
   display: block;
   margin: 7px auto;
-  width: 170px;
+  width: 150px;
   background-color: #ff117f;
   text-align: center;
-  padding: 10px;
+  padding: 7px;
   color: #fff;
   text-decoration: none;
   border-radius: 7px;
-  font-size: 1.1em;
+  font-size: 1em;
   transition: 1s;
+  border-radius: 20px;
 }
 @media (min-width: 768px) {
   .container-atractions a {
     display: block;
-    margin: 10px auto;
-    width: 200px;
+    margin: 7px auto;
+    width: 170px;
     background-color: #ff117f;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     color: #fff;
     text-decoration: none;
-    border-radius: 7px;
-    font-size: 1.2em;
+    border-radius: 20px;
+    font-size: 1em;
   }
   .galery h2 {
     text-align: center;

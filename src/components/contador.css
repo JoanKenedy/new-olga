@@ -1,7 +1,7 @@
 .contador {
   width: 100%;
   margin: auto;
-  background-color: #ff117f;
+  background-color: #fd8cb7;
 }
 .container-contador {
   display: flex;
@@ -32,7 +32,6 @@
   .contador {
     width: 100%;
     margin: auto;
-    background-color: #ff117f;
   }
   .container-contador {
     width: 85%;

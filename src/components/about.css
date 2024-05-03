@@ -49,7 +49,7 @@
   width: 170px;
   text-decoration: none;
   margin: 10px 0px;
-  border-radius: 7px;
+  border-radius: 20px !important;
 }
 .item-about:nth-child(2) ul li {
   display: flex;
@@ -137,6 +137,6 @@
     width: 170px;
     text-decoration: none;
     margin: 20px 0px 0px 0px;
-    border-radius: 7px;
+    border-radius: 20px !important;
   }
 }

@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import HeroPromociones from "../promociones/HeroPromociones";
 import SliderPromos from "../promociones/SliderPromos";
 import PromocionesPc from "../promociones/PromocionesPc";
+import Opiniones from "../components/Opiniones";
 import Flotantes from "../components/Flotantes";
 
 const Promociones = () => {
@@ -13,6 +14,7 @@ const Promociones = () => {
       <HeroPromociones />
       <SliderPromos />
       <PromocionesPc />
+      <Opiniones />
       <Flotantes />
       <Footer />
     </div>

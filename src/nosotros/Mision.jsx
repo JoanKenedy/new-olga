@@ -1,5 +1,11 @@
 import React from "react";
 import "./mision.css";
+import Etica from "../assets/etica.png";
+import Empatia from "../assets/empatia.png";
+import Puntualidad from "../assets/puntualidad.png";
+import Respeto from "../assets/respeto.png";
+import Confianza from "../assets/confianza.png";
+import Calidad from "../assets/calidad.png";
 
 const Mision = () => {
   return (
@@ -34,42 +40,42 @@ const Mision = () => {
           <div className="container-valores">
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/etica.png" alt="" />
+                <img src={Etica} alt="" />
               </div>
 
               <span>Ética</span>
             </div>
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/empatia.png" alt="" />
+                <img src={Empatia} alt="" />
               </div>
 
               <span>Empatia</span>
             </div>
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/puntualidad.png" alt="" />
+                <img src={Puntualidad} alt="" />
               </div>
 
               <span>Puntualidad</span>
             </div>
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/respeto.png" alt="" />
+                <img src={Respeto} alt="" />
               </div>
 
               <span>Respeto</span>
             </div>
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/confianza.png" alt="" />
+                <img src={Confianza} alt="" />
               </div>
 
               <span>Honestidad</span>
             </div>
             <div className="card-valores">
               <div className="card-img-valores">
-                <img src="../src/assets/calidad.png" alt="" />
+                <img src={Calidad} alt="" />
               </div>
 
               <span>Calidad</span>

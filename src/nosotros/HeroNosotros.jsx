@@ -1,11 +1,13 @@
 import React from "react";
 import "./hero-nosotros.css";
+import ImgMobil from "../assets/nosotros-mobil.webp";
+import ImgPc from "../assets/nosotros.webp";
 
 const HeroNosotros = () => {
   return (
     <div className="heroNosotros">
-      <img src="./src/assets/nosotros-mobil.png" alt="" className="mobil" />
-      <img src="./src/assets/nosotros.webp" alt="" className="pc-img" />
+      <img src={ImgMobil} alt="" className="mobil" />
+      <img src={ImgPc} alt="" className="pc-img" />
       <div className="text-title">
         <h2>Conócenos</h2>
         <p>

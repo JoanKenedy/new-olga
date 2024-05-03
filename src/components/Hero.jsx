@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import Slide1 from "../assets/swiper-1.webp";
+import Slide2 from "../assets/swiper-2.webp";
+import Slide3 from "../assets/swiper-2.webp";
+import Slide4 from "../assets/slider-pc-1.webp";
+import Slide5 from "../assets/slider-pc-2.webp";
+import Slide6 from "../assets/slider-pc-3.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
@@ -7,7 +13,7 @@ import "./hero.css";
 const Hero = () => {
   var settings = {
     infinite: true,
-    speed: 6000,
+    speed: 4000,
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -19,31 +25,19 @@ const Hero = () => {
       <div className="slider-mobil">
         <Slider {...settings}>
           <div className="slider ">
-            <img
-              src="./src/assets/swiper-1.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide1} alt="" className="slider-img " />
             <div className="text-slider">
               <h4>Dra. Olga Castillo, alta especialidad en la mujer.</h4>
             </div>
           </div>
           <div className="slider">
-            <img
-              src="./src/assets/swiper-2.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide2} alt="" className="slider-img " />
             <div className="text-slider">
               <h4>Donde nos preocupamos por tu bienestar integral.</h4>
             </div>
           </div>
           <div className="slider">
-            <img
-              src="./src/assets/swiper-3.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide3} alt="" className="slider-img " />
 
             <div className="text-slider">
               <h4>
@@ -57,31 +51,19 @@ const Hero = () => {
       <div className=" slider-compu">
         <Slider {...settings}>
           <div className="slider">
-            <img
-              src="./src/assets/slider-pc-1.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide4} alt="" className="slider-img " />
             <div className="text-slider">
               <h4>Dra. Olga Castillo, alta especialidad en la mujer.</h4>
             </div>
           </div>
           <div className="slider">
-            <img
-              src="./src/assets/slider-pc-2.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide5} alt="" className="slider-img " />
             <div className="text-slider">
               <h4>Donde nos preocupamos por tu bienestar integral.</h4>
             </div>
           </div>
           <div className="slider">
-            <img
-              src="./src/assets/slider-pc-3.webp"
-              alt=""
-              className="slider-img "
-            />
+            <img src={Slide6} alt="" className="slider-img " />
             <div className="text-slider">
               <h4>
                 Acompañamos cada etapa de tu embarazo con enfoque humanizado y

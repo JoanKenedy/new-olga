@@ -1,6 +1,11 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
-
+import Cerrar from "../assets/cerrar.png";
+import Abrir from "../assets/menu.png";
+import Logo from "../assets/logo_header.png";
+import Correcto from "../assets/correcto.png";
+import Llamada from "../assets/phone.png";
 const Navbar = () => {
   const [openMenu, isOpenMenu] = useState(false);
   return (
@@ -11,18 +16,18 @@ const Navbar = () => {
             <div className="item-menu">
               <p>
                 {" "}
-                <img src="./src/assets/correcto.png" alt="" />
+                <img src={Correcto} alt="" />
                 Atención a mas de 15,000 personas
               </p>
               <p>
                 {" "}
-                <img src="./src/assets/correcto.png" alt="" />
+                <img src={Correcto} alt="" />
                 Alta tecnología, diagnostico preciso
               </p>
             </div>
             <div className="item-menu">
               <p>
-                <img src="./src/assets/phone.png" alt="" />
+                <img src={Llamada} alt="" />
                 5564529359
               </p>
             </div>
@@ -30,11 +35,11 @@ const Navbar = () => {
         </div>
         <div className="container-menu">
           <div className="logo-menu">
-            <img src="./src/assets/logo_header.png" alt="" />
+            <img src={Logo} alt="" />
           </div>
           <nav className={`navbar ${openMenu ? "open_menu " : ""}`}>
             <img
-              src="./src/assets/cerrar.png"
+              src={Cerrar}
               alt=""
               className="close"
               onClick={() => isOpenMenu(!openMenu)}
@@ -42,16 +47,16 @@ const Navbar = () => {
 
             <ul>
               <li>
-                <a href="/">Inicio</a>
+                <Link to={"/"}>Inicio</Link>
               </li>
               <li>
-                <a href="nosotros">Nosotros</a>
+                <Link to={"/nosotros"}>Nosotros</Link>
               </li>
               <li>
-                <a href="services">Servicios</a>
+                <Link to={"/services"}>Servicios</Link>
               </li>
               <li>
-                <a href="promociones">Promociones</a>
+                <Link to={"/promociones"}>Promociones</Link>
               </li>
               <li>
                 <a href="#ubicacion">Ubicación</a>
@@ -68,7 +73,7 @@ const Navbar = () => {
             </ul>
           </nav>
           <img
-            src="./src/assets/menu.png"
+            src={Abrir}
             alt=""
             className="btn-menu"
             onClick={() => isOpenMenu(!openMenu)}

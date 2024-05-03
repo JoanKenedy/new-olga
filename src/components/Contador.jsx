@@ -15,7 +15,7 @@ const Contador = () => {
           <div className="item-contador">
             <h4 className="numero">
               {counterOn && (
-                <CountUp start={0} end={10} duration={5} delay={0} />
+                <CountUp start={0} end={10} duration={2} delay={0} />
               )}
             </h4>
             <p>Años de experiencia</p>
@@ -23,7 +23,7 @@ const Contador = () => {
           <div className="item-contador">
             <h4 className="numero">
               {counterOn && (
-                <CountUp start={0} end={10200} duration={5} delay={0} />
+                <CountUp start={0} end={10200} duration={2} delay={0} />
               )}
             </h4>
             <p>Pacientes felices</p>
@@ -31,7 +31,7 @@ const Contador = () => {
           <div className="item-contador">
             <h4 className="numero">
               {counterOn && (
-                <CountUp start={0} end={2450} duration={5} delay={0} />
+                <CountUp start={0} end={2450} duration={2} delay={0} />
               )}
             </h4>
             <p>Nacimientos </p>
@@ -39,7 +39,7 @@ const Contador = () => {
           <div className="item-contador">
             <h4 className="numero">
               {counterOn && (
-                <CountUp start={0} end={7500} duration={5} delay={0} />
+                <CountUp start={0} end={7500} duration={2} delay={0} />
               )}
             </h4>
             <p>Familias atendidas</p>

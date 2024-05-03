@@ -1,5 +1,8 @@
 import React from "react";
 import "./agenda.css";
+import Doctor from "../assets/doctor.png";
+import Chip from "../assets/chip.png";
+import Public from "../assets/public-service.png";
 
 const Agenda = () => {
   return (
@@ -10,7 +13,7 @@ const Agenda = () => {
           <div className="container-list-agenda">
             <div className="list-agenda">
               <div className="body-img">
-                <img src="./src/assets/doctor.png" alt="" />
+                <img src={Doctor} alt="" />
               </div>
 
               <div className="body-list">
@@ -23,7 +26,7 @@ const Agenda = () => {
             </div>
             <div className="list-agenda">
               <div className="body-img">
-                <img src="./src/assets/chip.png" alt="" />
+                <img src={Chip} alt="" />
               </div>
 
               <div className="body-list">
@@ -36,7 +39,7 @@ const Agenda = () => {
             </div>
             <div className="list-agenda">
               <div className="body-img">
-                <img src="./src/assets/public-service.png" alt="" />
+                <img src={Public} alt="" />
               </div>
 
               <div className="body-list">

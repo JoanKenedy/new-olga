@@ -1,5 +1,7 @@
 import React from "react";
 import "./flotantes.css";
+import Whats from "../assets/whats.png";
+import Phone from "../assets/llamada.png";
 
 const Flotantes = () => {
   return (
@@ -7,7 +9,7 @@ const Flotantes = () => {
       <div className="container-flotantes">
         <div className="item-flotantes">
           <a href="tel:5564529359" target="_blank">
-            <img src="/src/assets/llamada.png" alt="" />
+            <img src={Phone} alt="" />
           </a>
         </div>
         <div className="item-flotantes">
@@ -15,7 +17,7 @@ const Flotantes = () => {
             href="https://api.whatsapp.com/send/?phone=525564529359"
             target="_blank"
           >
-            <img src="/src/assets/whats.png" alt="" />
+            <img src={Whats} alt="" />
           </a>
         </div>
       </div>

@@ -12,7 +12,7 @@
   margin: auto;
 }
 .item-mision:nth-child(1) .card-mision {
-  background-color: #ff117f;
+  background-color: #fd8cb7;
 }
 .item-mision:nth-child(1) .card-mision:nth-child(2) {
   background-color: #ba19a1;
@@ -53,8 +53,7 @@
   height: 80px;
   object-fit: cover;
   border-radius: 50%;
-  background-color: #ff117f;
-  box-shadow: 7px 7px 7px #ba19a1;
+  background-color: #fd8cb7;
 }
 .card-valores img {
   width: 80px;
@@ -85,12 +84,10 @@
     width: 80%;
   }
   .item-mision:nth-child(1) .card-mision {
-    background-color: #ff117f;
     transition: all 0.7s;
     padding: 30px;
   }
   .item-mision:nth-child(1) .card-mision:nth-child(2) {
-    background-color: #ba19a1;
     transition: all 0.7s;
     padding: 30px;
   }
@@ -148,7 +145,7 @@
     width: 140px;
     height: 140px;
     object-fit: cover;
-    box-shadow: 7px 7px 7px #ba19a1;
+
     border-radius: 50%;
   }
   .card-valores img {

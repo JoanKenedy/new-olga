@@ -1,5 +1,5 @@
 import React from "react";
-import * as ReactDOM from "react-dom/client";
+import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
@@ -8,10 +8,7 @@ import Services from "./pages/Services";
 import Promociones from "./pages/Promociones";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
+  { path: "/", element: <Home /> },
   {
     path: "/nosotros",
     element: <Nosotros />,

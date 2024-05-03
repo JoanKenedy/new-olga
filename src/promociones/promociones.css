@@ -3,16 +3,20 @@
 }
 @media (min-width: 767px) {
   .promos {
-    display: block;
+    display: block !important;
   }
   .todo-promos {
     width: 80%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    margin: 15px auto;
   }
   .item-todo-promo img {
     max-width: 100%;
+  }
+  .todo-promos img {
+    transition: 0.7s all ease-in;
+  }
+  .todo-promos img:hover {
+    transform: scale(0.9);
+    transition: 0.5s all ease-in;
   }
 }

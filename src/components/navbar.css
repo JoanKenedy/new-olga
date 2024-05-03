@@ -71,7 +71,7 @@
   object-fit: cover;
 }
 .menu-arriba {
-  background-color: #ff117f;
+  background-color: #fd8cb7;
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -178,8 +178,10 @@
     color: white !important;
     font-size: 15px !important;
     transition: all 0.7s;
+    border-radius: 20px;
   }
   .btn-contacto:hover {
+    background-color: #fd8cb7;
     transform: scale(0.9);
     font: 14px;
     transition: all 0.7s;

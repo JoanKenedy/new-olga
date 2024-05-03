@@ -1,35 +1,42 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import "./slider-promos.css";
+import Promo1 from "../assets/promo-1.jpg";
+import Promo2 from "../assets/promo-2.jpg";
+import Promo3 from "../assets/promo-3.jpg";
+import Promo4 from "../assets/promo-4.jpg";
+import Promo5 from "../assets/promo-5.jpg";
+import Promo6 from "../assets/promo-6.jpg";
+import Promo7 from "../assets/promo-7.jpg";
 const SliderPromos = () => {
   const images = [
     {
-      original: "../src/assets/promo-1.jpg",
-      thumbnail: "../src/assets/promo-1.jpg",
+      original: Promo1,
+      thumbnail: Promo1,
     },
     {
-      original: "../src/assets/promo-2.jpg",
-      thumbnail: "../src/assets/promo-2.jpg",
+      original: Promo2,
+      thumbnail: Promo2,
     },
     {
-      original: "../src/assets/promo-3.jpg",
-      thumbnail: "../src/assets/promo-3.jpg",
+      original: Promo3,
+      thumbnail: Promo3,
     },
     {
-      original: "../src/assets/promo-4.jpg",
-      thumbnail: "../src/assets/promo-4.jpg",
+      original: Promo4,
+      thumbnail: Promo4,
     },
     {
-      original: "../src/assets/promo-5.jpg",
-      thumbnail: "../src/assets/promo-5.jpg",
+      original: Promo5,
+      thumbnail: Promo5,
     },
     {
-      original: "../src/assets/promo-6.jpg",
-      thumbnail: "../src/assets/promo-6.jpg",
+      original: Promo6,
+      thumbnail: Promo6,
     },
     {
-      original: "../src/assets/promo-7.jpg",
-      thumbnail: "../src/assets/promo-7.jpg",
+      original: Promo7,
+      thumbnail: Promo7,
     },
   ];
 

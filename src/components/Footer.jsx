@@ -27,7 +27,6 @@ const Footer = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.6039858646977!2d-99.13789162403101!3d19.29958034491395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01af68b8f9d7%3A0x409ea7811edeb2d0!2sCalz%20Acoxpa%20430%2C%20Coapa%2C%20Ex-Hacienda%20Coapa%2C%20Tlalpan%2C%2014308%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1714096355475!5m2!1ses-419!2smx"
                 width="600"
                 height="350"
-                title="Mapa de Urban Sonríe"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"

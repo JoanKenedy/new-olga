@@ -1,12 +1,13 @@
 import React from "react";
 import "./about.css";
+import Doctora from "../assets/olga.webp";
 
 const About = () => {
   return (
     <div className="about mtop">
       <div className="container-about">
         <div className="item-about">
-          <img src="./src/assets/olga.webp" alt="" />
+          <img src={Doctora} alt="" />
           <h1>Dra. Olga Castillo</h1>
           <span>Especializada en Ginecología y Obstetricia.</span>
         </div>
