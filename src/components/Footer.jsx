@@ -47,14 +47,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-solid fa-phone"></i> 5535362504
+                <i className="fa-solid fa-phone"></i> 5564529359
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-square-whatsapp"></i> 5529484701
+                <i className="fa-brands fa-square-whatsapp"></i> 5564529359
               </a>
             </div>
           </article>

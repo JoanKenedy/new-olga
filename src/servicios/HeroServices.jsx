@@ -8,7 +8,7 @@ const HeroServices = () => {
       <img src={Foto1} alt="" className="mobil" />
       <img src={Foto2} alt="" className="pc-img" />
       <div className="text-title">
-        <h2>Conócenos</h2>
+        <h2>Nuestros Servicios</h2>
         <p>
           Nuestro equipo de médicos altamente capacitados se enfocan en
           brindarte la mejor atención y soluciones médicas de calidad.

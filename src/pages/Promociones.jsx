@@ -8,6 +8,9 @@ import Opiniones from "../components/Opiniones";
 import Flotantes from "../components/Flotantes";
 
 const Promociones = () => {
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, "1000");
   return (
     <div>
       <Navbar />

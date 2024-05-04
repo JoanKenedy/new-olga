@@ -7,6 +7,10 @@ import Opiniones from "../components/Opiniones";
 import Flotantes from "../components/Flotantes";
 
 const Services = () => {
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, "1000");
+
   return (
     <div>
       <Navbar />

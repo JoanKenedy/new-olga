@@ -128,6 +128,12 @@
     color: #fff;
     padding: 7px;
     border-radius: 20px;
+
+    transition: 0.7s all ease;
+  }
+  .card-body a:hover {
+    transform: scale(0.9);
+    transition: 0.7s all ease;
   }
 
   .line-hidden {

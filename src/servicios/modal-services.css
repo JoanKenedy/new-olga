@@ -118,6 +118,11 @@
     text-decoration: none;
     border-radius: 20px;
     font-size: 1em;
+    transition: 0.7s all ease;
+  }
+  .container-atractions a:hover {
+    transition: 0.7s all ease;
+    transform: scale(0.9);
   }
   .galery h2 {
     text-align: center;
@@ -158,5 +163,13 @@
   .title-services span {
     color: #fff;
     font-size: 16px;
+  }
+  .item-galery button {
+    transition: 0.7s all ease;
+  }
+  .item-galery button:hover {
+    transition: 0.7s all ease;
+    transform: scale(0.9);
+    background-color: #fd8cb7;
   }
 }

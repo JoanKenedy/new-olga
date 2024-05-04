@@ -138,5 +138,10 @@
     text-decoration: none;
     margin: 20px 0px 0px 0px;
     border-radius: 20px !important;
+    transition: 0.7s all ease;
+  }
+  .btn-cita:hover {
+    transform: scale(0.9);
+    transition: 0.7s all ease;
   }
 }

@@ -61,7 +61,7 @@ const ModalServices = () => {
         <h2 id="title-modal">${texto.title}<h2/>
         <p id="texto-modal">${texto.info}<p/>
         <a
-            href="https://api.whatsapp.com/send?phone=525630220591"
+            href="https://api.whatsapp.com/send/?phone=525564529359"
             target="_blank"
             className="button-contact"
           >

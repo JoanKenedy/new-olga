@@ -50,6 +50,11 @@
     text-align: center;
     width: 20%;
     font-size: 16px;
+    transition: 0.7s all ease;
+  }
+  .promoIndex a:hover {
+    transform: scale(0.9);
+    transition: 0.7s all ease;
   }
   .promoIndex h2 {
     text-align: center;
