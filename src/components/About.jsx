@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Doctora from "../assets/olga.webp";
+import Doctora from "../assets/drOlga.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <div className="item-about">
           <img src={Doctora} alt="" />
           <h1>Dra. Olga Castillo</h1>
-          <span>Especializada en Ginecología y Obstetricia.</span>
+          <span>Especialista en Médicina Materno Fetal</span>
         </div>
         <div className="item-about">
           <span className="texto-esp">
@@ -32,7 +32,7 @@ const About = () => {
             </li>
             <li>
               <i class="fa-solid fa-circle-stop"></i>
-              <p>Médicos Certificados</p>
+              <p>Especialista Certificada</p>
             </li>
             <li>
               <i class="fa-solid fa-circle-stop"></i>

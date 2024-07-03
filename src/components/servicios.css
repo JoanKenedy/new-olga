@@ -82,7 +82,7 @@
   }
   .container-servicios {
     width: 85%;
-    margin: 0px auto 30px auto;
+    margin: 40px auto 40px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;

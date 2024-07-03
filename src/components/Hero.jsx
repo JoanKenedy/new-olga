@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import Slide1 from "../assets/swiper-1.webp";
+import Olga from "../assets/draOlga.png";
 import Slide2 from "../assets/swiper-2.webp";
 import Slide3 from "../assets/swiper-2.webp";
 import Slide4 from "../assets/slider-pc-1.webp";
@@ -11,96 +11,99 @@ import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
 
 const Hero = () => {
-  var settings = {
+  const settings = {
     infinite: true,
-    speed: 4000,
-    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true,
-    arrows: false,
+    autoplay: true,
+    speed: 1300,
+    autoplaySpeed: 1300,
+    vertical: true,
+    verticalSwiping: true,
+    beforeChange: function (currentSlide, nextSlide) {
+      console.log("before change", currentSlide, nextSlide);
+    },
+    afterChange: function (currentSlide) {
+      console.log("after change", currentSlide);
+    },
   };
   return (
     <>
-      <div className="slider-mobil">
-        <Slider {...settings}>
-          <div className="slider ">
-            <img src={Slide1} alt="" className="slider-img " />
-            <div className="text-slider">
-              <h4>Dra. Olga Castillo, alta especialidad en la mujer.</h4>
+      <div class="waveContainer">
+        <div className="container-efect">
+          <div className="item-container-efect">
+            <h2>Reciba el mejor tratamiento de calidad para</h2>
+            <div className="slider-vertical">
+              <div className="slider-container">
+                <Slider {...settings}>
+                  <div>
+                    <h3 className="text-morado">MÉDICINA MATERNO FETAL</h3>
+                  </div>
+                  <div>
+                    <h3 className="text-morado">Embarazo de alto riesgo</h3>
+                  </div>
+                  <div>
+                    <h3 className="text-morado">Control prenatal</h3>
+                  </div>
+                  <div>
+                    <h3 className="text-morado">Ultrasonidos 3D y 4D</h3>
+                  </div>
+                </Slider>
+              </div>
             </div>
+            <p>Nuestros pacientes, nuestra prioridad.</p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=525564529359"
+              target="_blank"
+              className="btn-hero"
+            >
+              Contacto
+            </a>
           </div>
-          <div className="slider">
-            <img src={Slide2} alt="" className="slider-img " />
-            <div className="text-slider">
-              <h4>Donde nos preocupamos por tu bienestar integral.</h4>
-            </div>
+          <div className="item-container-efect">
+            <img src={Olga} alt="" className="img-olga" />
           </div>
-          <div className="slider">
-            <img src={Slide3} alt="" className="slider-img " />
+        </div>
 
-            <div className="text-slider">
-              <h4>
-                Acompañamos cada etapa de tu embarazo con enfoque humanizado y
-                atención personalizada.
-              </h4>
-            </div>
-          </div>
-        </Slider>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="viewBox"
+        >
+          <path
+            fill="#ba19a1"
+            fill-opacity="1"
+            d="M0,64L48,64C96,64,192,64,288,101.3C384,139,480,213,576,229.3C672,245,768,203,864,186.7C960,171,1056,181,1152,154.7C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="viewBox2"
+        >
+          <path
+            fill="#ba19a1"
+            fill-opacity="1"
+            d="M0,64L48,101.3C96,139,192,213,288,202.7C384,192,480,96,576,85.3C672,75,768,149,864,202.7C960,256,1056,288,1152,272C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
       </div>
-      <div className=" slider-compu">
-        <Slider {...settings}>
-          <div className="slider">
-            <img src={Slide4} alt="" className="slider-img " />
-            <div className="text-slider">
-              <h4>Dra. Olga Castillo, alta especialidad en la mujer.</h4>
-            </div>
-          </div>
-          <div className="slider">
-            <img src={Slide5} alt="" className="slider-img " />
-            <div className="text-slider">
-              <h4>Donde nos preocupamos por tu bienestar integral.</h4>
-            </div>
-          </div>
-          <div className="slider">
-            <img src={Slide6} alt="" className="slider-img " />
-            <div className="text-slider">
-              <h4>
-                Acompañamos cada etapa de tu embarazo con enfoque humanizado y
-                atención personalizada.
-              </h4>
-            </div>
-          </div>
-        </Slider>
-      </div>
+
       <div className="box-horarios">
         <div className="item-box-horarios">
           <div className="text-titles">
             <i class="fa-solid fa-heart-pulse"></i>
-            <h2>Alta Especialidad en la Mujer</h2>
+            <h2>Alta Especialidad en Médicina Materno Fetal</h2>
           </div>
 
           <p>
-            Nuestro equipo de especialistas altamente capacitados en
-            Ginecología, Obstetricia, Materno Fetal, Pediatría, Nutrición y
-            Medicina Funcional están aquí para cuidar de ti y brindarte una
-            experiencia integral completamente personalizada.
+            La Medicina Materno Fetal, es una subespecialidad de la Obstetricia
+            que se centra en el diagnóstico, tratamiento y cuidado de mujeres
+            que tienen un alto riesgo de tener problemas durante el embarazo, ya
+            sea por condición materna o fetal; con un enfoque amplio en el
+            conocimiento de las complicaciones obstétricas y sus efectos sobre
+            la madre y el feto.
           </p>
-        </div>
-        <div className="item-box-horarios">
-          <div className="text-titles">
-            <i class="fa-regular fa-clock"></i> <h2>Nuestros Horarios</h2>
-          </div>
-
-          <div className="text-horario">
-            <p>Lunes a Viernes</p> <p>9:00am a 20:00pm</p>
-          </div>
-          <div className="text-horario">
-            <p>Sábado</p> <p>9:00am a 20:00pm</p>
-          </div>
-          <div className="text-horario">
-            <p>Teléfono</p> <p>5564529359</p>
-          </div>
         </div>
       </div>
     </>

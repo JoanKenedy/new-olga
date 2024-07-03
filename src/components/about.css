@@ -71,11 +71,11 @@
     align-items: center;
   }
   .mtop {
-    margin-top: 170px !important;
+    margin-top: 190px !important;
   }
   .container-about {
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 40px auto !important;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;

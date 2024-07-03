@@ -16,8 +16,10 @@ const PromoIndex = () => {
             <img src={images} alt="" />
           </div>
         ))}
+        <Link to={"/promociones"} id="btn-promo">
+          Ver todas las promociones
+        </Link>
       </div>
-      <Link to={"/promociones"}>Ver todas las promociones</Link>
     </div>
   );
 };

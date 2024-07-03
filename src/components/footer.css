@@ -81,7 +81,7 @@ footer {
 }
 @media (min-width: 768px) {
   .mapa {
-    padding: 25px 0px;
+    padding: 45px 0px;
     display: flex;
     justify-content: center;
     align-items: center;

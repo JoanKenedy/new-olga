@@ -7,7 +7,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
+  gap: 15px;
 }
 .item-promoIndex img {
   max-width: 100%;
@@ -16,7 +16,7 @@
   text-align: center;
   font-size: 25px;
 }
-.promoIndex a {
+#btn-promo {
   display: block;
   margin: auto;
   background-color: #ff117f;
@@ -29,16 +29,20 @@
   width: 90%;
   font-size: 14px;
   border-radius: 20px;
+  width: 250px;
 }
 @media (min-width: 767px) {
+  .promoIndex {
+    padding: 40px 0px;
+  }
   .container-promoIndex {
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 35px;
   }
-  .promoIndex a {
+  #btn-promo {
     display: block;
     margin: auto;
     background-color: #ff117f;
@@ -51,6 +55,9 @@
     width: 20%;
     font-size: 16px;
     transition: 0.7s all ease;
+    grid-column: 2/3;
+    grid-row: 2;
+    width: 100%;
   }
   .promoIndex a:hover {
     transform: scale(0.9);

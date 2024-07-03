@@ -88,12 +88,12 @@
 @media (min-width: 767px) {
   .container-agenda {
     width: 90%;
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .container-list-agenda {
-    padding: 5px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
     align-items: center;

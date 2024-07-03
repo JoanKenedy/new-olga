@@ -7,7 +7,8 @@ const Footer = () => {
           <div className="container-mapa" id="ubicacion">
             <div className="item-mapa">
               <h2>Horarios</h2>
-              <h3>Lunes y Sábado: 9:00am - 20:00pm Domingo: Cerrado</h3>
+              <h3>Lunes a Viernes de 16:00pm a 21::00pm</h3>
+              <h3>Sábados de 8:00am a 21:00pm</h3>
               <h2>Ubicación</h2>
               <h3>
                 Calz Acoxpa 430, Coapa, Ex-Hacienda Coapa, Tlalpan, 14308 Ciudad

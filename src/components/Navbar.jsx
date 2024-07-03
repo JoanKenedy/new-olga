@@ -4,35 +4,12 @@ import "./navbar.css";
 import Cerrar from "../assets/cerrar.png";
 import Abrir from "../assets/menu.png";
 import Logo from "../assets/logo_header.png";
-import Correcto from "../assets/correcto.png";
-import Llamada from "../assets/phone.png";
+
 const Navbar = () => {
   const [openMenu, isOpenMenu] = useState(false);
   return (
     <>
       <div className="menu">
-        <div className="menu-arriba">
-          <div className="container-menu">
-            <div className="item-menu">
-              <p>
-                {" "}
-                <img src={Correcto} alt="" />
-                Atención a mas de 15,000 personas
-              </p>
-              <p>
-                {" "}
-                <img src={Correcto} alt="" />
-                Alta tecnología, diagnostico preciso
-              </p>
-            </div>
-            <div className="item-menu">
-              <p>
-                <img src={Llamada} alt="" />
-                5564529359
-              </p>
-            </div>
-          </div>
-        </div>
         <div className="container-menu">
           <div className="logo-menu">
             <img src={Logo} alt="" />
@@ -53,11 +30,12 @@ const Navbar = () => {
                 <Link to={"/nosotros"}>Nosotros</Link>
               </li>
               <li>
-                <Link to={"/services"}>Servicios</Link>
-              </li>
-              <li>
                 <Link to={"/promociones"}>Promociones</Link>
               </li>
+              <li>
+                <Link to={"/services"}>Servicios</Link>
+              </li>
+
               <li>
                 <a href="#ubicacion">Ubicación</a>
               </li>
