@@ -64,7 +64,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>8:00 a. m. a 7:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -76,7 +76,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a. m. a 6:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -88,7 +88,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a. m. a 6:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -100,7 +100,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>8:00 a. m. a 7:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -112,7 +112,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>8:00 a. m. a 7:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -124,7 +124,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a. m. a 5:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -136,7 +136,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a. m. a 3:00 p. m.</font>
+                  <font>9:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>

@@ -9,7 +9,7 @@ const PromoIndex = () => {
   const imagesIndex = [Promo1, Promo2, Promo3];
   return (
     <div className="promoIndex">
-      <h2>Aprovecha nuestras promociones</h2>
+      <h2> Nuestras promociones</h2>
       <div className="container-promoIndex">
         {imagesIndex.map((images, i) => (
           <div className="item-promoIndex" index={i}>

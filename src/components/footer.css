@@ -2,6 +2,7 @@ footer {
   width: 100%;
   background-color: black;
   margin-top: 0px;
+  padding-bottom: 0px;
 }
 .container-footer {
   width: 90%;
@@ -15,6 +16,7 @@ footer {
 .item-container-footer p {
   color: white;
   text-align: left;
+  font-size: 14px;
 }
 .item-container-footer h2 {
   color: white;
@@ -32,4 +34,52 @@ footer {
 .menu-footer ul li a {
   color: white;
   text-decoration: none;
+}
+.datos-desarrollo {
+  width: 100%;
+  background-color: #ba19a1;
+  padding: 10px 10px;
+}
+.datos-desarrollo p {
+  color: white;
+  font-size: 12px;
+}
+.datos-desarrollo p a {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 767px) {
+  footer {
+    width: 100%;
+  }
+  .container-footer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 10px;
+  }
+  .item-container-footer img {
+    max-width: 50%;
+    text-align: left;
+    display: block;
+  }
+  .menu-footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .item-container-footer p {
+    color: white;
+    text-align: left;
+    font-size: 13px;
+  }
+  .datos-desarrollo {
+    width: 100%;
+    background-color: #ba19a1;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+  }
 }

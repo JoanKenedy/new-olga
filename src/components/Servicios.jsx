@@ -23,22 +23,22 @@ const Servicios = () => {
         </div>
         <div className="item-servicios">
           <div className="card-img">
-            <img src={Serv1} alt="" />
+            <img src={Serv2} alt="" />
           </div>
           <div className="card-body">
-            <h2 className="subtitle">Ginecología</h2>
-            <p>Atención ginecológica sin prejuicios ¡Confianza!</p>
+            <h2 className="subtitle">Obstetricia</h2>
+            <p>El control de embarazo que merecen tú y tu bebé</p>
             <Link to={"/services"}>Ver más...</Link>
             <div className="line-hidden"></div>
           </div>
         </div>
         <div className="item-servicios">
           <div className="card-img">
-            <img src={Serv2} alt="" />
+            <img src={Serv1} alt="" />
           </div>
           <div className="card-body">
-            <h2 className="subtitle">Obstetricia</h2>
-            <p>El control de embarazo que merecen tú y bebé</p>
+            <h2 className="subtitle">Ginecología</h2>
+            <p>Atención ginecológica sin prejuicios ¡Confianza!</p>
             <Link to={"/services"}>Ver más...</Link>
             <div className="line-hidden"></div>
           </div>

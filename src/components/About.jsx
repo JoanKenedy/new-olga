@@ -1,6 +1,10 @@
 import React from "react";
 import "./about.css";
 import Doctora from "../assets/draOlga.png";
+import Especialista from "../assets/doctora.png";
+import Tecnologia from "../assets/tecnologia.png";
+import Ultrasonido from "../assets/ultrasonido.png";
+import Equipo from "../assets/equipo.png";
 
 const About = () => {
   return (
@@ -27,24 +31,36 @@ const About = () => {
           </p>
           <ul>
             <li>
-              <i class="fa-solid fa-circle-stop"></i>
-              <p>Equipo de alta tecnología</p>
+              <div className="container-img-li">
+                <img src={Especialista} alt="" />
+              </div>
+              <div className="container-text-li">
+                <p>Especialista Certificada</p>
+              </div>
             </li>
             <li>
-              <i class="fa-solid fa-circle-stop"></i>
-              <p>Especialista Certificada</p>
+              <div className="container-img-li">
+                <img src={Tecnologia} alt="" />
+              </div>
+              <div className="container-text-li">
+                <p>Equipo de alta tecnología</p>
+              </div>
             </li>
             <li>
-              <i class="fa-solid fa-circle-stop"></i>
-              <p>Diagnósticos precisos</p>
+              <div className="container-img-li">
+                <img src={Ultrasonido} alt="" />
+              </div>
+              <div className="container-text-li">
+                <p>Diagnósticos precisos</p>
+              </div>
             </li>
             <li>
-              <i class="fa-solid fa-circle-stop"></i>
-              <p>Acompañamiento continuo</p>
-            </li>
-            <li>
-              <i class="fa-solid fa-circle-stop"></i>
-              <p>Atención personalizada e integral</p>
+              <div className="container-img-li">
+                <img src={Equipo} alt="" />
+              </div>
+              <div className="container-text-li">
+                <p>Acompañamiento continuo</p>
+              </div>
             </li>
           </ul>
           <a

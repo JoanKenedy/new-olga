@@ -37,9 +37,39 @@
 }
 .item-about:nth-child(2) ul {
   margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
-.item-about:nth-child(2) ul li i {
-  color: #ff117f;
+.item-about:nth-child(2) ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px !important;
+  border: 1px solid rgb(234, 234, 234);
+  padding: 18px;
+  margin: 0 !important;
+}
+.container-img-li {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #f5b5d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-about:nth-child(2) ul li img {
+  max-width: 100%;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  padding: 5px;
+}
+.item-about:nth-child(2) ul li p {
+  font-size: 11px;
+  text-align: center;
 }
 .btn-cita {
   display: block;
@@ -79,10 +109,10 @@
     margin: 20px auto 40px auto !important;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
 
-  .item-about img {
+  .item-about:nth-child(1) img {
     max-width: 100% !important;
   }
   .item-about h1 {
@@ -96,35 +126,48 @@
     text-align: center;
     display: block;
   }
-
-  .item-about:nth-child(2) p {
+  .item-about:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .texto-esp {
+    color: #ba19a1;
+    font-weight: 500;
     font-size: 15px;
-    text-align: justify;
+    text-align: justify !important;
+  }
+  .item-about:nth-child(2) p {
+    font-size: 14px !important;
     font-weight: 400;
+    text-align: justify;
   }
   .item-about:nth-child(2) ul {
     margin-top: 12px;
-  }
-  .item-about:nth-child(2) ul li i {
-    color: #ff117f;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
   }
   .item-about:nth-child(2) ul li {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    gap: 17px;
-    margin: 7px auto;
+    flex-direction: column;
+    gap: 0px !important;
+    border: 1px solid rgb(234, 234, 234);
+    padding: 8px;
+    margin: 0 !important;
   }
   .item-about:nth-child(2) ul li p {
-    color: #5a5a5a;
-    font-weight: 500;
-    font-size: 16px;
+    font-size: 11px !important;
+    text-align: center;
   }
   .btn-cita {
     display: block;
     background-color: #ff117f;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     width: 170px;
     text-decoration: none;

@@ -9,12 +9,9 @@ const Footer = () => {
           <div className="item-container-footer">
             <img src={LogoFooter} alt="" />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Recusandae, nisi!
+              Disfruta del milagro de dar vida a un ser al que amarás el resto
+              de tu vida.
             </p>
-            <i class="fa-brands fa-square-whatsapp"></i>
-            <i class="fa-solid fa-square-phone"></i>
-            <i class="fa-solid fa-map-location-dot"></i>
           </div>
           <div className="item-container-footer">
             <h2>Menú</h2>
@@ -41,8 +38,24 @@ const Footer = () => {
           </div>
           <div className="item-container-footer">
             <h2>Contacto</h2>
-            Dirección: <br /> Correo Electrónico: <br /> Télefono:
+            <p>Télefono: 5564529359</p>
+            <p>
+              Dirección: Hospital Angeles Acoxpa, Calz Acoxpa 430, Coapa,
+              Ex-Hacienda Coapa, Tlalpan, 14308 Ciudad de México, CDMX.
+            </p>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-solid fa-square-phone"></i>
+            <i class="fa-solid fa-map-location-dot"></i>
           </div>
+        </div>
+        <div className="datos-desarrollo">
+          <p>Todos los derechos reservados a Dra. Olga Castillo © 2024.</p>
+          <p>
+            {" "}
+            <a href="https://agenciainspiracion.com/" target="_blank">
+              Diseñado y desarrollado por Angecia Inspiración
+            </a>{" "}
+          </p>
         </div>
       </footer>
     </>
