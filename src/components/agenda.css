@@ -4,10 +4,11 @@
 }
 .container-agenda {
   width: 100%;
-  margin: auto;
+  margin: 20px auto 40px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 20px;
 }
 .item-agenda:nth-child(1) h2 {
   text-align: left;
@@ -44,21 +45,24 @@
   text-align: left;
 }
 .item-agenda:nth-child(2) {
-  width: 100%;
-  background-image: url(../assets/blur-hospital.webp);
+  width: 95%;
+  margin: auto;
   background-position: center center;
   background-size: cover;
-  height: 370px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  border: 1px solid #ff117f;
+  padding: 10px;
 }
 
 .item-agenda:nth-child(2) h2 {
-  color: #fff;
+  color: #ff117f;
   font-size: 25px;
+  margin-top: 0px;
 }
 .item-agenda:nth-child(2) p {
   color: #fff;
@@ -84,6 +88,35 @@
 .item-agenda:nth-child(2) a i {
   margin-right: 5px;
 }
+.st-shedule-list {
+  width: 85%;
+}
+.st-shedule-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px dashed #b5b5b5;
+  padding: 10px 0;
+}
+.contact-agenda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.item-contacto-agenda img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.item-contacto-agenda p {
+  color: #ff117f !important;
+  font-size: 17px;
+  font-weight: 500;
+}
 
 @media (min-width: 767px) {
   .container-agenda {
@@ -103,12 +136,23 @@
   .item-agenda:nth-child(2) {
     gap: 18px;
     height: auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px auto;
   }
   .item-agenda:nth-child(1) h2 {
     font-size: 40px;
     margin-left: 15px;
     margin-top: 20px;
   }
+  .st-shedule-list {
+    width: 85%;
+    margin-bottom: 15px;
+  }
+
   .body-list h2 {
     font-size: 20px !important;
   }

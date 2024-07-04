@@ -12,12 +12,6 @@
 
 .item-about img {
   max-width: 100%;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  margin: auto;
-  text-align: center;
-  display: block;
 }
 .item-about h1 {
   color: #6a5d62;
@@ -82,12 +76,6 @@
 
   .item-about img {
     max-width: 100%;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    margin: auto;
-    text-align: center;
-    display: block;
   }
   .item-about h1 {
     color: #6a5d62;

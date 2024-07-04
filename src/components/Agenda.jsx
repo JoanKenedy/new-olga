@@ -3,6 +3,7 @@ import "./agenda.css";
 import Doctor from "../assets/doctor.png";
 import Chip from "../assets/chip.png";
 import Public from "../assets/public-service.png";
+import Telefono from "../assets/telefono.png";
 
 const Agenda = () => {
   return (
@@ -53,18 +54,101 @@ const Agenda = () => {
           </div>
         </div>
         <div className="item-agenda">
-          <h2>¡Agenda tu cita!</h2>
-          <p>
-            Estás a un click de agendar tu cita con los mejores especialistas
-          </p>
-          <h3>Prioriza tu salud ¡No esperes más!</h3>
-
-          <a
-            href="https://api.whatsapp.com/send/?phone=525564529359"
-            target="_blank"
-          >
-            <i class="fa-solid fa-calendar-days"></i> Agendar cita
-          </a>
+          <h2>Horario semanal</h2>
+          <ul class="st-shedule-list">
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Lunes</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>8:00 a. m. a 7:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Martes</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>9:00 a. m. a 6:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Miércoles</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>9:00 a. m. a 6:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Jueves</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>8:00 a. m. a 7:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Viernes</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>8:00 a. m. a 7:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Sábado</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>9:00 a. m. a 5:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+            <li>
+              <div class="st-shedule-left">
+                <font>
+                  <font>Domingo</font>
+                </font>
+              </div>
+              <div class="st-shedule-right">
+                <font>
+                  <font>9:00 a. m. a 3:00 p. m.</font>
+                </font>
+              </div>
+            </li>
+          </ul>
+          <div className="contact-agenda">
+            <div className="item-contacto-agenda">
+              <img src={Telefono} alt="" />
+            </div>
+            <div className="item-contacto-agenda">
+              <p> 5564529359</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

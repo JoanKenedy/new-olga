@@ -7,7 +7,7 @@ import Opinion from "../assets/cliente6.png";
 
 const Opiniones = () => {
   var settings = {
-    arrows: true,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
@@ -17,7 +17,7 @@ const Opiniones = () => {
   return (
     <>
       <div className="opiniones">
-        <h2>Testimonios</h2>
+        <h2>¿Qué dice la gente?</h2>
         <Slider {...settings}>
           <div className="slider-opiniones">
             <div className="card-opinion">

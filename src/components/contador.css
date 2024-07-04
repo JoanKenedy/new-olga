@@ -1,7 +1,7 @@
 .contador {
   width: 100%;
   margin: auto;
-  background-color: #fd8cb7;
+  background-image: linear-gradient(to top right, #ba19a1, #ff0286);
 }
 .container-contador {
   display: flex;
