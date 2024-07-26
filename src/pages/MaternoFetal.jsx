@@ -1,6 +1,6 @@
 import React from "react";
-import ModalServices from "../servicios/ModalServices";
-import HeroServices from "../servicios/HeroServices";
+import ModalServices from "../materno/ModalServices";
+import HeroServices from "../materno/HeroServices";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -10,7 +10,6 @@ const MaternoFetal = () => {
       <Navbar />
       <HeroServices />
       <ModalServices />
-
       <Footer />
     </div>
   );
