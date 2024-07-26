@@ -41,7 +41,7 @@ const Servicios = () => {
         <p id="texto-modal">${texto.info}<p/>
         <a
             href=${texto.url}
-            target="_blank"
+            
             id="button-contact"
           >
             ${texto.textBtn}
