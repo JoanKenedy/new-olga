@@ -1,40 +1,40 @@
 import React, { useState } from "react";
 import "./modal-services.css";
 import LazyLoad from "react-lazyload";
-import Servicio1 from "../assets/ginecologia.webp";
-import Servicio2 from "../assets/materno.webp";
-import Servicio3 from "../assets/control-prenatal.webp";
-import Servicio4 from "../assets/ultrasonido.webp";
-import Servicio5 from "../assets/preclamcia.webp";
-import Servicio6 from "../assets/exploracion.webp";
+import Servicio1 from "../assets/check-up.jpg";
+import Servicio2 from "../assets/ginecologia.webp";
+import Servicio3 from "../assets/papanicolao.jpg";
+import Servicio4 from "../assets/colposcopia.jpg";
+import Servicio5 from "../assets/vacuna.jpg";
+import Servicio6 from "../assets/galery-1.webp";
 
 const ModalServices = () => {
   const infoServicios = [
     {
       id: 1,
-      title: "Ginecología y Obstetricia",
-      info: "Ven y disfruta del hermoso lago de tequesquitengo con sus 5km de largo por 3km de ancho, tambien aprovecha de todas las actividades que puedes hacer en el lago.",
+      title: "Check Up",
+      info: "La prevención es el mejor tratamiento para cualquier enfermedad, por lo que se recomienda la revisión periódica. Al solicitar un check up ginecológico se realiza una historia clínica detallada para detectar posibles problemas ginecológicos, que puedan interferir con la salud reproductiva y sexual.En definitiva, las revisiones ginecológicas son controles periódicos de gran importancia en la salud de la mujer, ya que protegen su salud sexual y reproductiva. Nunca se es demasiado joven o demasiado mayor para ir al ginecólogo.",
     },
     {
       id: 2,
-      title: "Materno Fetal",
-      info: "En la zona existen diversos clubes de playa, con bares, restaurantes, piscinas, áreas para tomar el sol con cómodos camastros y servicio de toallas, si vienes a alguno de ellos, también podrás realizar deportes tanto dentro, como fuera del lago. En estos espacios se aprovecha al máximo el día y cuentan con actividades variadas para que cada quién disfrute de lo que más le gusta sin salir de las instalaciones del club elegido.",
+      title: "Consulta Ginecología",
+      info: "En la visita ginecológica se evalúa el estado de salud del aparato genital femenino en su conjunto. Durante la visita se realiza un control tanto de los órganos genitales internos como externos, así como del pecho, para evaluar la presencia de problemas o de auténticas patologías.",
     },
     {
       id: 3,
-      title: "Control prenatal",
-      info: "Este bello lugar queda en Morelos a 5 minutos de Tequesquitengo y se trata del Parque de jardines florales más grande del mundo. Contiene 9 jardines temáticos, además de, el Jardín ConSentidos, un área educativa y de esparcimiento especialmente dedicada para los pequeños, un Centro de Convenciones, un Centro de Exposiciones, un Centro de Eventos Sociales “Bamboo” (donde se pueden realizar bodas y otros eventos) y el Foro al aire libre: “Spectare”.",
+      title: "Papanicolaou",
+      info: "La prueba de Papanicolaou es un examen para ayudar a prevenir y detectar temprano el cáncer de cuello uterino. El cuello uterino es la parte inferior del útero que se abre a la vagina. Durante el procedimiento, un profesional de la salud toma células del cuello uterino y la manda al laboratorio. ¿Para qué se usa? ,la prueba de Papanicolaou busca anomalías en las células cervicales antes de que se conviertan en cáncer. A veces, las células recolectadas también se revisan para detectar VPH, un virus que puede causar cambios en las células que pueden provocar cáncer.",
     },
     {
       id: 4,
-      title: "Ultrasonidos",
-      info: "Si disfrutas de la Historia, la Ruta de Zapata es un interesante recorrido que comienza a sólo 30 minutos de Tequesquitengo con una visita la Casa Museo de Emiliano Zapata en Anenecuilco y recorre los principales sitios por los que pasó Emiliano Zapata. Este recorrido incluye los lugares donde nació, luchó y murió. También verás el Museo de la Revolución ubicado en Tlaltizapán y la Hacienda de Chinameca, en donde Zapata murió asesinado a traición por el Coronel Guajardo en 1919 y Cuautla, en donde descansan los restos de este caudillo.",
+      title: "Colposcopia",
+      info: "La colposcopía es un procedimiento para examinar detenidamente el cuello del útero, la vagina y la vulva en busca de signos de enfermedades. Durante la colposcopía, el médico utiliza un instrumento especial llamado colposcopio.",
     },
 
     {
       id: 5,
-      title: "Preeclampsia y Eclampsia",
-      info: "El Zoofari que queda a 15 minutos de Tequesquitengo, cuenta con más de 1200 animales de 150 especies diferentes que se pueden ver, tocar y hasta alimentar en algunos casos. Funciona todo el año y también es una experiencia educativa ya que cada uno de los animales que viven aquí tiene su hábitat recreado. Si estás cerca, no pierdas la oportunidad de hacer el Zoofari.",
+      title: "Vacuna VPH",
+      info: "La vacuna contra el VPH protege de las verrugas genitales y de la mayoría de los casos de cáncer del cuello del útero. Protege contra el cáncer de vagina, vulva, pene o ano causado por el VPH. La vacuna contra el VPH también protege del cáncer de boca, de garganta y de cabeza y cuello causados por este virus. La vacuna proporciona al cuerpo una forma segura para que el sistema inmunitario reconozca mejor algunas cepas del VPH. Esto significa que el cuerpo elimina esas cepas del virus con mayor facilidad si una persona las contrae más tarde.",
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ const ModalServices = () => {
             target="_blank"
             className="button-contact"
           >
-            Contacto
+            Contactar a nuestra especialista
           </a>
         `;
       });
@@ -141,7 +141,11 @@ const ModalServices = () => {
               <span>Para más información comunicate con nosotros</span>
             </div>
           </div>
-          <a href="" className="btn-mas">
+          <a
+            href="https://api.whatsapp.com/send/?phone=525564529359"
+            target="_blank"
+            className="btn-datos"
+          >
             Contacto
           </a>
         </div>

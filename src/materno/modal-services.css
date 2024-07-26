@@ -1,8 +1,8 @@
-.galery {
+.galery-2 {
   width: 100%;
   overflow-x: hidden;
 }
-.galery h2 {
+.galery-2 h2 {
   text-align: center;
   color: #2e2e2e;
   font-size: 2em;
@@ -10,14 +10,14 @@
   margin-bottom: 12px;
   padding-bottom: 15px;
 }
-.container-galery {
+.container-galery-2 {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin: 20px auto;
 }
-.item-galery button {
+.item-galery-2 button {
   display: block;
   width: 150px;
   background-color: #ff117f;
@@ -31,16 +31,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
 }
-.item-galery img {
+.item-galery-2 img {
   max-width: 100%;
   min-width: 140px;
   min-height: 140px;
   object-fit: cover;
 }
-.item-galery-img {
+.item-galery-img-2 {
   position: relative;
 }
-.title-services {
+.title-services-2 {
   position: absolute;
   bottom: 5px;
   left: 0;
@@ -49,7 +49,7 @@
   text-align: center;
   padding: 8px;
 }
-.title-services span {
+.title-services-2 span {
   color: #fff;
   font-size: 11px;
 }
@@ -72,7 +72,7 @@
   transform: scale(1);
   transition: 0.7s;
 }
-.container-atractions {
+.container-atractions-2 {
   background-color: #fff;
   width: 95%;
   height: 90%;
@@ -83,67 +83,66 @@
   padding: 20px;
   border: 5px solid #ff117f;
 }
-.container-atractions h2 {
+.container-atractions-2 h2 {
   font-size: 1.4em;
   margin: 0px auto;
 }
-.container-atractions p {
-  font-size: 0.8em;
+#texto-modal-2 {
+  font-size: 13px !important;
   text-align: justify;
   font-weight: 400;
 }
-.container-atractions a {
+#btn-modal-2 {
   display: block;
-  margin: 7px auto;
-  width: 150px;
+  margin: 15px auto;
+  width: 250px;
   background-color: #ff117f;
   text-align: center;
-  padding: 7px;
+  padding: 10px;
   color: #fff;
   text-decoration: none;
   border-radius: 7px;
-  font-size: 1em;
+  font-size: 0.6em;
   transition: 1s;
   border-radius: 20px;
+  font-weight: 400;
+}
+#menu-modal li {
+  font-size: 13px;
+  text-align: justify;
+  font-weight: 400;
 }
 @media (min-width: 768px) {
-  .container-atractions a {
-    display: block;
-    margin: 7px auto;
-    width: 170px;
-    background-color: #ff117f;
-    text-align: center;
-    padding: 7px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 1em;
-    transition: 0.7s all ease;
-  }
-  .container-atractions a:hover {
+  .container-atractions-2 a:hover {
     transition: 0.7s all ease;
     transform: scale(0.9);
   }
-  .galery h2 {
+  .galery-2 h2 {
     text-align: center;
     color: #2e2e2e;
     font-size: 2.5em;
     margin-bottom: 0;
   }
-  .container-galery {
+  .container-galery-2 {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     margin: 10px auto 35px;
   }
-  .item-galery img {
+  .item-galery-2 img {
     max-width: 100%;
   }
+  .item-galery-2 img {
+    max-width: 100%;
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+  }
 
-  .container-atractions {
+  .container-atractions-2 {
     background-color: #fff;
-    width: 40%;
+    width: 50%;
     height: 90%;
     display: flex;
     justify-content: center;
@@ -152,11 +151,11 @@
     padding: 35px;
     border: 5px solid #ff117f;
   }
-  .container-atractions h2 {
+  .container-atractions-2 h2 {
     font-size: 2em;
     margin: 0px auto;
   }
-  .container-atractions p {
+  .container-atractions-2 p {
     font-size: 0.6em;
     text-align: justify;
     font-weight: 400;
@@ -165,18 +164,43 @@
     color: #fff;
     font-size: 16px;
   }
-  .item-galery button {
+  .item-galery-2 button {
     transition: 0.7s all ease;
   }
-  .item-galery button:hover {
+  .item-galery-2 button:hover {
     transition: 0.7s all ease;
     transform: scale(0.9);
     background-color: #fd8cb7;
   }
+  #btn-modal-2 {
+    display: block;
+    margin: 18px auto;
+    width: 350px;
+    background-color: #ff117f;
+    text-align: center;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 16px !important;
+    transition: 1s;
+    border-radius: 20px;
+    font-weight: 400;
+  }
+  #texto-modal-2 {
+    font-size: 15px !important;
+    text-align: justify;
+    font-weight: 400;
+  }
+  #menu-modal li {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 1300px) {
-  .container-galery {
+  .container-galery-2 {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);

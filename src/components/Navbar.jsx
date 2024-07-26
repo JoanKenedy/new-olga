@@ -33,7 +33,12 @@ const Navbar = () => {
                 <Link to={"/promociones"}>Promociones</Link>
               </li>
               <li>
-                <Link to={"/services"}>Servicios</Link>
+                <Link to={"/services-obstetricia-materno-fetal"}>
+                  Obstetricia
+                </Link>
+              </li>
+              <li>
+                <Link to={"/services-ginecologia"}>Ginecología</Link>
               </li>
 
               <li>

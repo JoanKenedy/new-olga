@@ -13,28 +13,28 @@
 .container-galery {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin: 20px auto;
 }
 .item-galery button {
   display: block;
-  width: 170px;
+  width: 150px;
   background-color: #ff117f;
   color: #fff;
   text-align: center;
   text-decoration: none;
   margin: 12px auto;
   border: none;
-  padding: 12px;
-  font-size: 1em;
+  padding: 8px;
+  font-size: 0.9em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
 }
 .item-galery img {
   max-width: 100%;
-  min-width: 290px;
-  min-height: 290px;
+  min-width: 140px;
+  min-height: 140px;
   object-fit: cover;
 }
 .item-galery-img {
@@ -51,7 +51,7 @@
 }
 .title-services span {
   color: #fff;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .modal-atractions {
@@ -95,6 +95,20 @@
 .container-atractions a {
   display: block;
   margin: 7px auto;
+  width: 300px;
+  background-color: #ff117f;
+  text-align: center;
+  padding: 7px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 0.8em;
+  transition: 1s;
+  border-radius: 20px;
+}
+.btn-datos {
+  display: block;
+  margin: 7px auto;
   width: 150px;
   background-color: #ff117f;
   text-align: center;
@@ -110,10 +124,23 @@
   .container-atractions a {
     display: block;
     margin: 7px auto;
-    width: 170px;
+    width: 320px;
     background-color: #ff117f;
     text-align: center;
     padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9em;
+    transition: 0.7s all ease;
+  }
+  .btn-datos {
+    display: block;
+    margin: 7px auto;
+    width: 170px;
+    background-color: #ff117f;
+    text-align: center;
+    padding: 5px;
     color: #fff;
     text-decoration: none;
     border-radius: 20px;

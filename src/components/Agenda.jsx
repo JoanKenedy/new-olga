@@ -64,7 +64,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>16:00 p.m. a 21:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -76,7 +76,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>16:00 p.m. a 21:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -88,7 +88,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>16:00 p.m. a 21:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -100,7 +100,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>16:00 p.m. a 21:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -112,7 +112,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>16:00 p.m. a 21:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -124,7 +124,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>8:00 a.m. a 20:00 p.m.</font>
                 </font>
               </div>
             </li>
@@ -136,7 +136,7 @@ const Agenda = () => {
               </div>
               <div class="st-shedule-right">
                 <font>
-                  <font>9:00 a.m. a 20:00 p.m.</font>
+                  <font>No se labora</font>
                 </font>
               </div>
             </li>
