@@ -39,7 +39,7 @@
   font-size: 23px;
   font-weight: 700;
 }
-.item-container-efect a {
+.item-container-efect .btn-hero {
   background-color: #ba19a1;
   display: block;
   text-align: center;
@@ -143,6 +143,9 @@
   font-size: 32px;
   margin: 15px 7px;
   color: #ba19a1;
+}
+.btn-redes-hero {
+  background-color: none !important;
 }
 @media (min-width: 767px) {
   .waveContainer {
@@ -259,7 +262,7 @@
     text-transform: uppercase;
     font-size: 40px;
   }
-  .item-container-efect a {
+  .item-container-efect .btn-hero {
     background-color: #ba19a1;
     display: block;
     text-align: center;

@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import Services from "./pages/Services";
 import Promociones from "./pages/Promociones";
+import MaternoFetal from "./pages/MaternoFetal";
+import Ginecologia from "./pages/Ginecologia";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/promociones",
     element: <Promociones />,
+  },
+  {
+    path: "/services-obstetricia-materno-fetal",
+    element: <MaternoFetal />,
+  },
+  {
+    path: "/services-ginecologia",
+    element: <Ginecologia />,
   },
 ]);
 

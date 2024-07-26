@@ -56,9 +56,27 @@ const Hero = () => {
             <Link to={"/services"} target="_blank" className="btn-hero">
               Todos los servicios
             </Link>
-            <i class="fa-brands fa-square-whatsapp"></i>
-            <i class="fa-solid fa-square-phone"></i>
-            <i class="fa-solid fa-map-location-dot"></i>
+            <Link
+              to={"https://api.whatsapp.com/send/?phone=525564529359"}
+              className="btn-redes-hero"
+              target="_blank"
+            >
+              <i class="fa-brands fa-square-whatsapp"></i>
+            </Link>
+            <Link
+              to={"tel:5564529359"}
+              target="_blank"
+              className="btn-redes-hero"
+            >
+              <i class="fa-solid fa-square-phone"></i>
+            </Link>
+            <Link
+              to={"https://maps.app.goo.gl/tRbRvist7tDVxUnQ8"}
+              target="_blank"
+              className="btn-redes-hero"
+            >
+              <i class="fa-solid fa-map-location-dot"></i>
+            </Link>
           </div>
           <div className="item-container-efect"></div>
         </div>

@@ -17,8 +17,8 @@ const About = () => {
         </div>
         <div className="item-about">
           <span className="texto-esp">
-            En la Especialidad Materno Fetal contamos con habilidades para dar
-            la adecuada atención a pacientes con embarazo de alto riesgo.
+            Brindamos un seguimiento estrecho en cada etapa del embarazo,
+            ofreciendo los ultrasonidos especializados de cada trimestre.
           </span>
           <p>
             {" "}
