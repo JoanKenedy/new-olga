@@ -53,9 +53,9 @@ const Hero = () => {
               </div>
             </div>
             <p>Nuestros pacientes, nuestra prioridad.</p>
-            <Link to={"/services"} target="_blank" className="btn-hero">
+            <a href="/services" target="_blank" className="btn-hero">
               Todos los servicios
-            </Link>
+            </a>
             <Link
               to={"https://api.whatsapp.com/send/?phone=525564529359"}
               className="btn-redes-hero"

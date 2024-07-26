@@ -42,9 +42,6 @@ const Navbar = () => {
               </li>
 
               <li>
-                <a href="#ubicacion">Ubicación</a>
-              </li>
-              <li>
                 <a
                   href="https://api.whatsapp.com/send/?phone=525564529359"
                   target="_blank"
