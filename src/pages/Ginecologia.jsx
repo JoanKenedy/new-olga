@@ -5,6 +5,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const Ginecologia = () => {
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, "1000");
   return (
     <div>
       <Navbar />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./servicios.css";
 import foto1 from "../assets/materno.webp";
 import foto2 from "../assets/gine.webp";
@@ -39,13 +40,9 @@ const Servicios = () => {
         atraction.innerHTML += `
         <h3 id="title-modal">${texto.title}<h3/>
         <p id="texto-modal">${texto.info}<p/>
-        <Link
-            to={"${texto.url}"}
-            
-            id="button-contact"
-          >
-            ${texto.textBtn}
-          </Link>
+        <a href="#${texto.url}" id="button-contact">
+        ${texto.textBtn}
+        </a>
         `;
       });
   };
@@ -84,7 +81,6 @@ const Servicios = () => {
       <div
         className={`modal-atractions ${isModal ? "popup" : ""} `}
         id="modal-atractions"
-        onClick={() => setIsModal(!isModal)}
       >
         <div
           className="container-atractions-home"
