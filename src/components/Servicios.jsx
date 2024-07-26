@@ -39,13 +39,13 @@ const Servicios = () => {
         atraction.innerHTML += `
         <h3 id="title-modal">${texto.title}<h3/>
         <p id="texto-modal">${texto.info}<p/>
-        <a
-            href=${texto.url}
+        <Link
+            to={"${texto.url}"}
             
             id="button-contact"
           >
             ${texto.textBtn}
-          </a>
+          </Link>
         `;
       });
   };
